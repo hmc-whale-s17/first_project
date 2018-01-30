@@ -1,0 +1,90 @@
+﻿D1. tells you commands and what they do (for git)
+D2. lists all commans and concept guides (more specific)
+E1. setting username and email on computer.
+E2. global for all directories
+F1. -ls -a
+F2. No
+F3. .git
+F4. will delete .git file?
+F5. look for .git file
+G1. author date branch. and if theres anything to commit
+G2. stages file to be commited
+G3. commits the file with the comment "Add our names"
+G4. adds all files. ". means all files"
+G5. opens vims to add multiline comment
+G6. git commit
+G7. shows log of all commits
+H1. names.txt - staged. - added to next commit
+    movies.txt - unstaged - in folder but not added to next commit
+    books.txt - untracked - never been added before
+H2. names.txt will be committed
+H3. git add
+H4. git reset 
+
+
+H1. git diff - show changes in unstaged file
+H2. git diff --cached show changes in staged file
+H3. git add movies.txt. git reset names.txt
+H4. its both staged and unstaged. edit 1 is staged. edit 2 is unstaged
+H5. unstaged and shows its was deleted.
+H6. kept staged movies.txt but deleted unstaged version and replaced it with last-movies.txt in untracked.
+H7. git add last-movies.txt
+    git add books.txt
+    git rm movies.txt
+    git rm names.txt
+    git commit -m "Message"
+H8. the things that will be commited
+H9. make changes to some files and keep working on others.
+
+
+I1. reset to before last commit
+I2. send us back to first commit
+I3. soft goes back one. hard to specific one
+I4. HEAD before any commit
+I5. HEAD^ the first commit
+
+
+D1. tells you commands and what they do (for git)
+D2. lists all commans and concept guides (more specific)
+E1. setting username and email on computer.
+E2. global for all directories
+F1. -ls -a
+F2. No
+F3. .git
+F4. will delete .git file?
+F5. look for .git file
+G1. author date branch. and if theres anything to commit
+G2. stages file to be commited
+G3. commits the file with the comment "Add our names"
+G4. adds all files. ". means all files"
+G5. opens vims to add multiline comment
+G6. git commit
+G7. shows log of all commits
+H1. names.txt - staged. - added to next commit
+    movies.txt - unstaged - in folder but not added to next commit
+    books.txt - untracked - never been added before
+H2. names.txt will be committed
+H3. git add
+H4. git reset 
+
+
+H1. git diff - show changes in unstaged file
+H2. git diff --cached show changes in staged file
+H3. git add movies.txt. git reset names.txt
+H4. its both staged and unstaged. edit 1 is staged. edit 2 is unstaged
+H5. unstaged and shows its was deleted.
+H6. kept staged movies.txt but deleted unstaged version and replaced it with last-movies.txt in untracked.
+H7. git add last-movies.txt
+    git add books.txt
+    git rm movies.txt
+    git rm names.txt
+    git commit -m "Message"
+H8. the things that will be commited
+H9. make changes to some files and keep working on others.
+
+
+I1. reset to before last commit
+I2. send us back to first commit
+I3. soft goes back one. hard to specific one
+I4. HEAD before any commit
+I5. HEAD^ the first commit
